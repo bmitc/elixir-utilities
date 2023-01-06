@@ -1,16 +1,17 @@
+[![build and test](https://github.com/bmitc/elixir-utilities/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/bmitc/elixir-utilities/actions/workflows/build-and-test.yml)
+
 # Utilities
 
 A collection of various utility modules that extend Elixir's core modules.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `utilities` to your list of dependencies in `mix.exs`:
+This library is currently not available [Hex](https://hex.pm/docs/publish) and thus should be installed as a Git dependency. This can be done by adding `utilities` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:utilities, "~> 0.1.0"}
+    {:utilities, git: "https://github.com/bmitc/elixir-utilities.git", branch: "main"}
   ]
 end
 ```
